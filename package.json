@@ -9,11 +9,7 @@
     "passport",
     "sqlite"
   ],
-  "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "https://www.jaredhanson.me/"
-  },
+  "author": "Jared Hanson <jaredhanson@gmail.com> (https://www.jaredhanson.me/)",
   "homepage": "https://github.com/passport/todos-express-starter",
   "repository": {
     "type": "git",
@@ -31,15 +27,21 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "connect-sqlite3": "^0.9.15",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "dotenv": "^8.6.0",
     "ejs": "~2.6.1",
     "express": "~4.16.1",
+    "express-session": "^1.18.0",
     "http-errors": "~1.6.3",
     "mkdirp": "^1.0.4",
     "morgan": "~1.9.1",
+    "mysql2": "^3.10.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
     "pluralize": "^8.0.0",
     "sqlite3": "^5.0.2"
-  }
+  },
+  "main": "app.js"
 }
